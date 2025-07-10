@@ -24,13 +24,18 @@ Build a dashboard to support academic interventions.
 
 
 📁 Dataset Description
-Fields: Student ID, Name, Marks, Attendance (%), Logins (per week)
+- **File:** `Expanded_data_with_more_features.csv`
+- **Rows:** 30641
+- **Columns:** 15
+- **Target:** Math, Reading, Writing Scores
 
 Source: [ ]
 
 Sample:
 
-
+| Gender | ParentEduc | PracticeSport | MathScore | ReadingScore | WritingScore |
+|--------|------------|----------------|-----------|---------------|---------------|
+| female | bachelor’s degree | regularly | 71 | 71 | 74 |
 
 
 🛠️ Approach & Methodology
@@ -64,6 +69,11 @@ Additional: Distribution of marks, attendance patterns.
 
 🖼️ Output Screenshots
 
+| Heatmap | Math Distribution | Top Performers |
+|--------|--------------------|----------------|
+| ![heatmap](screenshots/heatmap.png) | ![math](screenshots/math_distribution.png) | ![top](screenshots/top10_avgscore.png) |
+
+
 
 
 📊 Key Results
@@ -82,7 +92,7 @@ Top performers consistently log in more than 15 times per week.
 student-performance-analysis/
 │
 ├── data/                 # Dataset files
-├── notebooks/            # Jupyter notebooks for EDA and modeling
+├── methodology/            # Jupyter notebooks for EDA and modeling
 ├── src/                  # Source code for dashboard/app
 ├── screenshots/          # Output screenshots
 ├── README.md
