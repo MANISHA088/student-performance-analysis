@@ -71,7 +71,7 @@ Additional: Distribution of marks, attendance patterns.
 
 | Heatmap | Math Distribution | Top Performers |
 |--------|--------------------|----------------|
-| ![heatmap](screenshots/heatmap.png) | ![math](screenshots/math_distribution.png) | ![top](screenshots/top10_avgscore.png) |
+| ![heatmap](student-performance-analysis\screenshots\correlation heatmap.png) | | ![heatmap](student-performance-analysis\screenshots\parent_eduVSstudent_score.png) ![heatmap](student-performance-analysis\screenshots\parent_marital_statusVSstudent_score.png) |  ![math](student-performance-analysis\screenshots\math score.png) | ![reading](student-performance-analysis\screenshots\reading score.png) | ![writing](student-performance-analysis\screenshots\writing score.png) | ![distribution](student-performance-analysis\screenshots\distribution.png) |  ![top](student-performance-analysis\screenshots\distribution.png) |
 
 
 
